@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularios 2</title>
+</head>
+<body>
+    <form action="">
+        <h1>Formularios 2</h1>
+
+        <label> nombres
+            <input type="text" name="nombres" placeholder="texto de ayuda" >
+        </label>
+        <!--El atributo name permite al servidor
+        identificar cada campo-->
+
+        <label>
+            <input type="email"> Email
+            <br>
+            <input type="url" name="" id=""> url
+            <br>
+            <input type="password" name="" id=""> password
+            <br>
+            <input type="tel" name="" id=""> Teléfono (teclado N)
+            <br>
+            <input type="date" name="" id=""> Fecha
+            <br>
+            <input type="time" name="" id=""> time
+            <br>
+            <input type="number" name="" id=""> tipo numero (recomendado para usarlo como dato)
+            <br>
+            <input type="checkbox" name="" id=""> checkbox
+            <br>
+            <input type="radio" name="gender"> male
+            <input type="radio" name="gender"> female
+            <br>
+            <input type="range" min="0" max="100" step="20">
+            <br>
+            <input type="file" name="" id=""> archivos
+            <br>
+            <input type="reset" name="" id="">
+
+            <br>
+            <br>
+
+            <select name="pais" id="pais">
+                <optgroup label="America">
+               
+                <option value="Chile">Chile</option>
+                <option value="Mexico">Mexico</option>
+
+                </optgroup>
+                <optgroup label="Europa">
+                <option value="España">España</option>
+                <option value="Peru">Peru</option>
+
+               
+
+                </optgroup>
+            </select>
+           
+            <select multiple size="6" name="pais" id="pais">
+                    <option value="España">España</option>
+                    <option value="Peru">Peru</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Mexico">Mexico</option>
+                </select>
+
+                <br> <!--
+                <input list="paises"
+                <datalist id="paises">
+                    <option value="España"></option>
+                    <option value="Ecuador"></option>
+                    <option value=""></option>
+                </datalist>
+                -->
+                <br>
+                <br>
+                <textarea name="mensaje" id="mensaje" 
+                cols="30" rows="10"
+                maxlength="200"></textarea>
+            <button>Enviar</button>
+        </label>
+
+    </form>
+</body>
+</html>
